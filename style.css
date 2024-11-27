@@ -1,9 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.page-title {
+h1.page-title {
     font-size: 34px;
     color: rgb(255, 255, 255);
     background-color: rgb(255, 128, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 0px;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(255, 128, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.397) 1rem 1rem 10px);
+}
+
+span {
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.shrimp {
+    list-style-type: "\1F364";
+}
+
+.banana {
+    list-style-type: "\1F34C";
+}
+
+.lasagna {
+    list-style-type: "\1F35D";
+}
+
+div {
+    background-color: rgb(245, 245, 245);
 }
